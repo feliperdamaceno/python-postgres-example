@@ -28,7 +28,7 @@ After doing that, pgAdmin should be connected to the Postgres database.
 
 ### 3. Setup environment variables:
 
-Create a .env file with a variable called **POSTGRES_URL**, it should be something like this:
+Create a .env file with a variable called **POSTGRES_URL**, following the example below:
 
 ```bash
 POSTGRES_URL=postgresql://username:password@localhost:port/database
